@@ -1,0 +1,85 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #005f63;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    border-right:2px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 24px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+h1 {
+  font-size: 54px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.indexcontainer {
+  display: grid;
+  grid-template-rows: 140px 67px 150px 750px;
+}
+
+.indexbodyarea {
+  grid-row: 3/4;
+  font-size: 25px;
+}
+
+.indexpictures {
+  grid-row: 4/5;
+}
+
+.title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.navigation {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.rulecontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 140px 67px 750px;
+}
+
+.rules{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-size: 25px;
+}
+
+.equipments {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size: 25px;
+}
