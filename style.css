@@ -56,20 +56,20 @@ div {
 }
 
 .title {
-  grid-column: 1/3;
+  grid-column: 1/7;
   grid-row: 1/2;
   text-align: center;
 }
 
 .navigation {
-  grid-column: 1/3;
+  grid-column: 1/7;
   grid-row: 2/3;
 }
 
 .rulecontainer{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 140px 67px 750px;
+  grid-template-columns: 3fr 5fr;
+  grid-template-rows: 140px 67px 4000px;
 }
 
 .rules{
@@ -82,4 +82,54 @@ div {
   grid-column: 2/3;
   grid-row: 3/4;
   font-size: 25px;
+}
+
+.techcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 140px 67px 700px 550px;
+}
+
+.skill {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  font-size: 25px;
+}
+
+.skill2 {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  font-size: 25px;
+}
+
+.skill3 {
+  grid-column: 5/7;
+  grid-row: 3/4;
+  font-size: 25px;
+}
+
+.tactic {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  font-size: 25px;
+}
+
+.tactic2 {
+  grid-column: 4/7;
+  grid-row: 4/5;
+  font-size: 25px;
+}
+
+.improvecontainer {
+  grid-template-rows: 140px 67px 500px;
+}
+
+.improve {
+  grid-row: 3/4;
+  font-size: 25px;
+}
+
+span {
+  font-weight:bold;
+  font-size:40px
 }
